@@ -6,3 +6,9 @@ def count_characters(text: str) -> dict:
         else:
             char_counts[char] = 1
     return char_counts
+
+
+def count_words(text:str) -> int:
+    return len(text.split())
+
+    
